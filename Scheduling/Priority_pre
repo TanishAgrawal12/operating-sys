@@ -60,11 +60,6 @@ int main() {
         scanf("%d %d %d", &at[i], &bt[i], &pr[i]);
     }
 
-    printf("\nChoose Scheduling Algorithm:\n");
-    printf("1. Preemptive Priority Scheduling\n");
-    printf("2. Non-Preemptive Priority Scheduling\n");
-    printf("Enter choice: ");
-    scanf("%d", &choice);
 
     
    priorityPreemptive(n, at, bt, pr);
